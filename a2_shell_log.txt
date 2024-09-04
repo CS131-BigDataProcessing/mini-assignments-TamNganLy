@@ -1,0 +1,16 @@
+  510  git checkout tigery2005-colab
+  511  git status
+  512  open -a TextEdit Collaborators.md
+  513  git pull origin main
+  514  git checkout main
+  515  git merge tigery2005-colab
+  516  git add Collaborators.md
+  517  git commit -m "Tiger Yang added to collaborators"
+  518  git push
+  519  open -a TextEdit Collaborators.md
+  520  git clone https://github.com/CS131-BigDataProcessing/CS131_fa24_datafiles.git
+  521  cd CS131_fa24_datafiles
+  522  ls
+  523  grep -o '\bwor\w*' Lec02
+  524  grep -o '\bwor\w*' Lec02/goodluck.txt
+  525  grep -o '\w*dred\w*' Lec02/goodluck.txt
