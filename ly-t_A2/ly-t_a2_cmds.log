@@ -1,0 +1,8 @@
+  1  grep -o '\bwor\w*' goodluck.txt
+  2  grep -o '\w*dred\w*' goodluck.txt
+  3  grep 'Good luck, babe' goodluck.txt
+  4  grep 'Good luck, babe' goodluck.txt | wc
+  5  grep 'Good luck, babe' goodluck.txt | wc > ly-t_a2_counts.txt
+  6  vi ly-t_a2_counts.txt
+  7  cat ly-t_a2_counts.txt
+  8  history > ly-t_a2_cmds.log
