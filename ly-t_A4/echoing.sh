@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Activity 1
 echo "Activity 1"
 echo "The time and date are:" 
