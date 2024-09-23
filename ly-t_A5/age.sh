@@ -1,3 +1,5 @@
+#!/bin/bash
+
 age=$1
 if [ $age -lt 13 ]; then
 	echo "child"

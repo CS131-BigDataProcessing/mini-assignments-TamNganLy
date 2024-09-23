@@ -1,3 +1,5 @@
+#!/bin/bash
+
 temp=$1
 
 if [ $temp -gt 55 ]; then
