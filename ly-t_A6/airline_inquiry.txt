@@ -1,0 +1,42 @@
+Question 1
+
+Command: 
+$ awk -F, '{ print $4 }' airline_stats.csv | sort | uniq
+
+Output:
+"airline"
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
+
+
+Question 2 A
+
+Command: 
+$ awk -F, '{ if ($1 > 10) print $4 }' airline_stats.csv | sort | uniq
+
+Output:
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"
+
+
+Question 2 B
+
+Command:
+$ input=15
+$ awk -v threshole="$input" -F, '{ if ($1 > threshole) print $4 }' airline_stats.csv | sort | uniq
+
+Ouput:
+"Alaska"
+"American"
+"Delta"
+"Jet Blue"
+"Southwest"
+"United"

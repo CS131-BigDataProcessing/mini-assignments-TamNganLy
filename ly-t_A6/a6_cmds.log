@@ -1,0 +1,5 @@
+  1  awk -F, '{ print $4 }' airline_stats.csv | sort | uniq
+  2  awk -F, '{ if ($1 > 10) print $4 }' airline_stats.csv | sort | uniq
+  3  input=15
+  4  awk -v threshole="$input" -F, '{ if ($1 > threshole) print $4 }' airline_stats.csv | sort | uniq
+  5  history > a6_cmds.log
