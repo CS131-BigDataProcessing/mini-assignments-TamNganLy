@@ -1,0 +1,7 @@
+1. Identify missing values
+	Remove trailing spaces, tab, and new line
+2. Rows with missing values
+	Remove rows that have missing values. We didn't replace the missing values with NA because using NA will mess up the mean value when handling outliers.
+4.How to identify outliers?
+	Calculate the median, lower bound, and upper bound using Tukey method
+	Replace values that outside of [lower bound, upper bound] by median.
