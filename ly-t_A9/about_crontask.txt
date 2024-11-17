@@ -1,0 +1,8 @@
+a. What other types of tasks could benefit from automation using cron or at?
+System Updates: Schedule automated updates for packages or system software, ensuring that the system remains up-to-date.
+
+b. What potential risks are there with poorly managed automated tasks, and how can you avoid them?
+Potential risks:
+Overwriting Critical Data: Misconfigured tasks could overwrite valuable data. 
+How to avoid:
+Use unique filenames for backups and maintain version history.

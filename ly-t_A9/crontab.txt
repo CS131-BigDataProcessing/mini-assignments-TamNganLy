@@ -1,0 +1,3 @@
+0 2 * * * rm -rf /path/to/home/temp/*
+0 3 * * 0 tar -czf /path/to/home/user/backups/backup_$(date +\%F).tar.gz /path/to/home/user
+30 8 * * * df -h | mail -s "Disk Usage Report" tam.ly@sjsu.edu
