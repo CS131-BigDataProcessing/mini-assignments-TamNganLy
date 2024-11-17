@@ -1,3 +1,10 @@
+Group members:
+	Lila Nguyen
+	Xiao Qi Lee
+	Tam Ly
+	Henry Pham
+
+
 1. Identify missing values
 	Remove trailing spaces, tab, and new line
 2. Rows with missing values
